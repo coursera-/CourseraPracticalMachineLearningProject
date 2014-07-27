@@ -82,10 +82,11 @@ print(rf)
 ## E    0    0    2    3 3602   0.0013862
 ```
 
-The error rate estimated this way is 0.3%
+The error rate estimated this way is 0.29%
 
 ## Feature importances
 
+Plot of feature importances in the order of decreasing importance:
 
 ```r
 varImpPlot(rf)
